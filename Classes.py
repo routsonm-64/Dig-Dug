@@ -31,6 +31,7 @@ class Player(pygame.sprite.Sprite):         #Create Player
         self.inventory = 0
         self.rect = self.Image.get_rect()#Finds Dimensions from image for collision
         self.deathtime = None
+        print("Hello")
 
     def move(self,x,y,diro):        #Move Player Function
             
